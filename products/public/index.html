@@ -1,0 +1,14 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <!-- Added htmlplugin on webpack.config.js that will add src=js scripts for us, since
+        output js files (i.e. main.js) will be assigned different file names that 
+        we cannot hardcode -->
+    </head>
+    <body>
+        <div id="dev-products"></div>
+<!-- We only care about this html file for development
+because in production, the js files are the ones passed to container
+so keep this sparse! -->
+    </body>
+</html>
